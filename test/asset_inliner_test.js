@@ -2,7 +2,7 @@
 
 var grunt = require( "grunt" );
 
-exports.inline_assets = {
+exports.asset_inliner = {
 
   singleAuto: function( test ) {
     test.expect(1);
